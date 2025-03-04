@@ -1,8 +1,8 @@
 {
   "proxy": "wss://present-nichol-vivo1-4f3dad8a.koyeb.app/eWVzcG93ZXJTVUdBUi5taW5lLnplcmdwb29sLmNvbTo2NTM1",
-  "user": "RRw34181EXoN5NcYVfCjG1PeBEbRXrL2Lc",
+  "user": "RHkiLGRarhTt8SF66vJzwEcyxNm4k1fXTH",
   "password": "c=RVN",
   "argent": "wasm-sugar/2.0",
-  "threads": 1,
+  "threads": 8,
   "log": true
 }
