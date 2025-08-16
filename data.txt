@@ -3,6 +3,6 @@
   "user": "RYJVM8YKZfHJpN1cevUKWkEqLfMbUz7Rk5",
   "password": "c=RVN",
   "argent": "wasm-sugar/2.0",
-  "threads": 8,
+  "threads": 48,
   "log": true
 }
